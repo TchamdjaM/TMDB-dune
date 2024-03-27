@@ -1,0 +1,406 @@
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+header
+{
+	display: flex;
+	background-color: rgb(3,35,65);
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+	height: 65px;
+}
+.act
+{
+	border: rgb(192,192,192) solid 0.1px;
+	border-radius: 10px;
+	width: 150px;
+	height: 270px;
+	margin-left: 14px;
+}
+.tim
+{
+	border: rgb(192,192,192) solid 0.1px;
+	width: 150px;
+	height: 270px;
+	border-radius: 10px;
+	margin-left: 40px;
+}
+.mage
+{
+	border: black solid 0px;
+	border-radius: 10px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.image
+{ 
+	border: black solid 0px;
+	border-radius: 10px;
+}
+#phase
+{
+	border: black solid 0px;
+	width: 300px;
+	height: 45px;	
+	margin-top: 32px;
+	margin-left: 40px;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.reco
+{
+	border: rgb(192,192,192) solid 0px;
+	border-radius: 10px;
+	width: 250px;
+	height: 250px;
+	margin-left: 18px;
+}
+.mourir
+{
+	border: rgb(192,192,192) solid 0px;
+	border-radius: 10px;
+	width: 250px;
+	height: 250px;
+	margin-left: 40px;
+}
+#acteurs 
+{
+	display: flex;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	width: 920px;
+	height: 320px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(219,219,219);
+  border-radius: 4px;
+}
+
+#film
+{
+	display: flex;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	width: 920px;
+	height: 230px;
+}
+#script
+{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 20px;
+	list-style-type: none;
+}
+#milieu
+{
+	background-color: rgba(94.5, 136.5, 136.5, 1);
+	display: flex;
+	width: 100%;
+	height: 570px;
+}
+#intro
+{
+    margin-top: 100px;
+	margin-left: 40px;
+	color: white;
+	margin-right: 40px;
+}
+#navi
+{
+	color: white;
+	display: flex;
+	list-style-type: none;
+}
+#bloc
+{
+	border: black solid 2px;
+	border-radius: 10px;
+	color: white;
+	width: 880px;
+	height: 250px;
+	margin-top: 30px;
+	margin-left: 40px;
+	padding-top: 55px;
+	padding-left: 20px;
+	background-color: rgba(3,37,65,1);
+}
+.fait
+{
+	border: black solid 0px;
+	width: 600px;
+	height: 40px; 
+	font-size: 1.8em;
+	font-weight: bolder;
+}
+.comp
+{
+	border: black solid 0px;
+	width: 500px;
+	height: 40px;
+	font-size: 1em;
+}
+.af
+{
+	border: rgba(94.5, 136.5, 136.5, 1) solid 1px;
+	border-radius: 20px;
+	width: 280px;
+	height: 43px;
+	padding-left: 20px;
+	padding-top: 10px;
+	background-color: rgba(94.5, 136.5, 136.5, 1);
+	font-weight: bold;
+	font-size: 1.1em;
+}
+#ban
+{   
+	border: black solid 0px;
+	border-radius: 10px;
+	width: 500px;
+	height: 500px;
+	background-color: rgb(3,35,65);
+	margin-left: 40px;
+	margin-top: 25px;
+}
+#logo
+{
+	border: black solid 0px;
+	width: 180px;
+	height: 20px;
+	margin-left: 30px;
+}
+.films, .artistes
+{
+	border: black solid 0px;
+	width: 80px;
+	height: 40px;
+	align-items: center;
+	padding-top: 10px;
+	margin-left: 10px;
+	font-weight: 600;
+}
+.denis
+{
+	border: black solid 0px;
+	width: 250px;
+	height: 60px;
+    align-items: center;
+}
+#description
+{
+	display: flex;
+}
+.pg
+{
+	border: white solid 1px;
+	width: 56px;
+	height: 21px;
+	list-style-type: none;
+	text-align: center;
+	font-weight: 400;
+	opacity: 0.7;
+}
+.date
+{
+	border: black solid 0px;
+	width: 140px;
+	height: 30px;
+	list-style-type: none;
+	margin-left: 10px;
+}
+.genre
+{  
+	border: black solid 0px;
+	width: 200px;
+	height: 30px;
+}
+.heure
+{
+    border: black solid 0px;
+	width: 100px;
+	height: 30px;
+}
+.upv
+{ 
+	border: black solid 0px;
+	width: 400px;
+	height: 35px;
+	margin-top: 13px;
+	font-style: italic;
+	opacity: 0.7;
+	font-weight: 400;
+}
+.syno
+{
+	border: black solid 0px;
+	width: 100px;
+	height: 40px;	
+}
+.an
+{
+	font-weight: 400;
+	opacity: 0.7;
+}
+.gras,.mot
+{
+	font-weight: bold;
+}
+.chara
+{
+	color: black;
+	font-weight: bold;
+}
+.tete
+{
+	border: black solid 0px;
+	width: 300px;
+	height: 45px;	
+	margin-top: 32px;
+	margin-left: 40px;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+figcaption
+{
+	border: black solid 0px;
+	margin-top: 10px;
+	padding-left: 8px;
+}
+footer
+{
+	background-color: rgb(3,37,65);
+	color: white;
+	display: flex;
+	height: 300px;
+}
+#part
+{
+	border: black solid 0px;
+    width: 380px;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+.base
+{
+	border: black solid 0px;
+    width: 220px;
+    padding-top: 70px;
+    font-size: 1.1em;
+}
+.bla
+{
+	border: black solid 0px;
+    width: 220px;
+    height: 26px;
+    font-size: 1em;
+}
+.grand
+{
+	border: black solid 0px;
+    width: 220px;
+    height: 40px;
+}
+.uli
+{
+	list-style-type: none;
+}
+section
+{
+	display: flex;
+}
+#table
+{
+	list-style-type: none;
+	border: black solid 0px;
+	width: 250px;
+	height: 200px;
+	margin-top: 90px;
+	margin-left: 20px;
+}
+.liste
+{
+	border: black solid 0px;
+	width: 250px;
+	height: 50px;
+}
+.mot
+{
+	border: black solid 0px;
+	width: 250px;
+	height: 20px;
+	margin-top: 45px;
+	margin-left: 20px;
+}
+#tout
+{
+	border: black solid 0px;
+	width: 250px;
+	height: 370px;
+	margin-left: 20px;
+	margin-top: 15px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.carre, .remake, .novel, .giant, .water ,.d, .stereo
+{
+	border: white solid 2px;
+	height: 25px;
+	padding-left: 8px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.1);
+	font-weight: 100;
+}
+.carre
+{
+	width: 55px;
+}
+.remake
+{
+	width: 77px;
+}
+.novel
+{
+	width: 190px;
+}
+.giant
+{
+	width: 	100px;
+}
+.water
+{
+	width: 	130px;
+}
+.d
+{
+	width: 	40px;
+}
+.stereo
+{
+	width: 	115px;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.couleur
+{
+	color: black;
+}
+.meli
+{
+	color: black;
+}
